@@ -1,8 +1,20 @@
 {
-  "versions": {
-    "Vanilla": {},
-    "Paper": {},
-    "Fabric": {},
-    "Forge": {}
-  }
+  "items": [
+    {
+      "name": "Paper",
+      "url": "https://papermc.io"
+    },
+    {
+      "name": "Vanilla",
+      "url": "https://www.minecraft.net/en-us/"
+    },
+    {
+      "name": "Fabric",
+      "url": "https://fabricmc.net"
+    },
+    {
+      "name": "Forge",
+      "url": "https://files.minecraftforge.net"
+    }
+  ]
 }
