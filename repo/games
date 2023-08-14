@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "name": "Minecraft",
+      "url": "https://papermc.io"
+    },
+    {
+      "name": "Garry's Mod",
+      "url": "https://www.minecraft.net/en-us/"
+    },
+    {
+      "name": "Fabric",
+      "url": "https://fabricmc.net"
+    },
+    {
+      "name": "Forge",
+      "url": "https://files.minecraftforge.net"
+    }
+  ]
+}
