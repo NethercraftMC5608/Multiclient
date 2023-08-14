@@ -12,14 +12,21 @@ def main():
     file_name = url.split("/")[-1]
     run_script = f"java -jar {file_name} --nogui"
 
-    os.makedirs(folder_name, exist_ok=True)
+    multiclient_folder = "multiclient"
+    os.makedirs(multiclient_folder, exist_ok=True)
 
-    urllib.request.urlretrieve(url, os.path.join(folder_name, file_name))
+    client_folder = os.path.join(multiclient_folder, folder_name)
+    os.makedirs(client_folder, exist_ok=True)
 
-    with open(os.path.join(folder_name, "run.sh"), "w") as run_file:
+    urllib.request.urlretrieve(url, os.path.join(client_folder, file_name))
+
+    with open(os.path.join(client_folder, "run.sh"), "w") as run_file:
         run_file.write(run_script)
 
-    os.chmod(os.path.join(folder_name, "run.sh"), 0o755)
+    os.chmod(os.path.join(client_folder, "run.sh"), 0o755)
+
+    with open(os.path.join(client_folder, "eula.txt"), "w") as eula_file:
+        eula_file.write("eula=true")
 
 if __name__ == "__main__":
     main()
