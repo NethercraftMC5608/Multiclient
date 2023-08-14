@@ -7,19 +7,16 @@
     },
     {
       "name": "Garry's Mod",
-      "url": "https://www.minecraft.net/en-us/"
       "folderprefix": "garrysmod",
       "generalscripturl": "https://github.com/NethercraftMC5608/Multiclient/blob/main/repo/minecraft/generalscript.py"
     },
     {
       "name": "Fabric",
-      "url": "https://fabricmc.net"
       "folderprefix": "minecraft",
       "generalscripturl": "https://github.com/NethercraftMC5608/Multiclient/blob/main/repo/minecraft/generalscript.py"
     },
     {
       "name": "Forge",
-      "url": "https://files.minecraftforge.net"
       "folderprefix": "minecraft",
       "generalscripturl": "https://github.com/NethercraftMC5608/Multiclient/blob/main/repo/minecraft/generalscript.py"
     }
