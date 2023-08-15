@@ -3,22 +3,22 @@
     {
       "name": "Minecraft",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
-      "folderprefix": "minecraft",
+      "folderprefix": "minecraft"
     },
     {
       "name": "Garry's Mod",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
-      "folderprefix": "garrysmod",
+      "folderprefix": "garrysmod"
     },
     {
       "name": "Fabric",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
-      "folderprefix": "minecraft",
+      "folderprefix": "minecraft"
     },
     {
       "name": "Forge",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
-      "folderprefix": "minecraft",
+      "folderprefix": "minecraft"
     }
   ]
 }
