@@ -1,12 +1,12 @@
 {
   "items": [
     {
-      "name": "Minecraft",
+      "name": "Paper",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
       "folderprefix": "minecraft"
     },
     {
-      "name": "Garry's Mod",
+      "name": "Vanilla",
       "desc": "Paper is a Minecraft game server based on Spigot, designed to greatly improve performance and offer more advanced features and API.",
       "folderprefix": "garrysmod"
     },
