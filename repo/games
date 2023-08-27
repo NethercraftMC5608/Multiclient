@@ -3,7 +3,7 @@
     {
       "name": "Minecraft",
       "folderprefix": "minecraft",
-      "generalscripturl": "https://github.com/NethercraftMC5608/Multiclient/blob/main/repo/minecraft/generalscript.py"
+      "generalscripturl": "https://raw.githubusercontent.com/NethercraftMC5608/Multiclient/main/repo/minecraft/generalscript.py"
     },
     {
       "name": "Garry's Mod",
