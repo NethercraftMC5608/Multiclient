@@ -27,6 +27,7 @@ def main():
 
     with open(os.path.join(client_folder, "eula.txt"), "w") as eula_file:
         eula_file.write("eula=true")
+    print('SUCCESS')
 
 if __name__ == "__main__":
     main()
